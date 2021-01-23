@@ -1,0 +1,30 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 226px 226px 226px;
+    grid-template-rows: 150px 250px;
+    padding: 80px 300px;
+    grid-gap:10px;
+    
+
+}
+
+.pad{
+    padding : 20px 30px;
+}
+.four, .five, .six{
+    box-shadow: 5px 5px 10px grey;
+}
+button{
+    width: 120px;
+    height: 30px;
+    background-color: cornflowerblue;
+    border:none;
+    box-shadow: 2px 2px 5px grey;
+    color: white;
+}
+button:hover{
+    color: burlywood;
+}
+div, img{
+    border-radius: 5px;
+}

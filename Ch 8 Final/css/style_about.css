@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3.2rem;
+}
+header{
+    background-color:dodgerblue ;
+    width: 90%;
+    height: 14em;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.logo{
+    background: url(../img/logo-color.png);
+    margin:  2em;
+    float: left;
+    width: 20%;
+    height: 10em;
+}
+.navbar ul a{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight:500;
+    color: black;
+    text-decoration: none;
+}
+.navbar ul a:hover{
+    color: white;
+}
+.navbar{
+    float: right;
+    margin: 0 auto;
+    width: 50%;
+    height: 4em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-right: 25em;
+
+}
+
+.navbar ul li{
+    display: inline;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+ul{
+    margin-top: .7em;
+    margin-bottom: .7em;
+}
+/* ####################################### main ################################ */
+main{
+    width: 90%;
+    margin: 2em auto;
+}
+.para{
+    float: left;
+    width: 68%;
+}
+.para p {
+    font-size: 1.2rem;
+    /* padding: 2em; */
+    
+}
+.imgAbt{
+    background: url(../img/pexels-tyler-lastovich-699122.jpg);
+    width: 30%;
+    height: 30em;
+    float: right;
+    border-radius: 5px;
+}
+.clear{
+    clear: both;
+}
+.para2 p{
+    font-size: 1.2rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.list{
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+.list ul li{
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.frame{
+    text-align: center;
+}
+/* ############################################## footer ####################################### */
+.foot{
+    width: 90%;
+    height: 4em;
+    background-color: dodgerblue;
+    margin: 2em auto;
+    border-radius: 5px;
+
+}
+.foot p{
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
